@@ -13,6 +13,7 @@ body {
 /* Homepage-cover page starts  */
 .Homepage-cover {
     background-color: #28293E;
+    padding-bottom: 129px;
 }
 
 /* header & menu starts */
@@ -70,9 +71,13 @@ header {
     justify-items: center;
 }
 
-.clear-header small {
+#name {
     font-weight: 400;
     color: #EF6D58;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 250px;
+
 }
 
 .clear-header h1 {
@@ -110,3 +115,27 @@ header {
     width: 568.4px;
     height: 554.5px;
 }
+
+/* <!-- Header and Banner ends  -->  */
+
+/* service secction styles starts  */
+.service {
+    padding-top: 92px;
+}
+
+.service-heading p {
+    color: #EF6D58;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.service-heading h1 {
+    font-size: 56px;
+    text-align: center;
+    color: #391400;
+    position: relative;
+    bottom: 10px;
+}
+
+
+/* service secction styles ends  */
