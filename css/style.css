@@ -121,6 +121,8 @@ header {
 /* service secction styles starts  */
 .service {
     padding-top: 92px;
+    background-color: #FDF0E9;
+    padding-bottom: 100px;
 }
 
 .service-heading p {
@@ -137,8 +139,88 @@ header {
     bottom: 10px;
 }
 
+.design-development-container {
+    color: black;
+}
+
+.design-development-container {
+    display: flex;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.design-development {
+    border: 1px solid #F3D1BF;
+    border-radius: 6px 0px 0px 6px;
+    width: 586px;
+    height: 252px;
+    padding: 48px;
+}
+
+.icon-heading {
+    display: flex;
+    align-items: center;
+}
+
+.icon-heading h3 {
+    font-size: 24px;
+}
+
+#Instead-managing {
+    color: #391400A3;
+    line-height: 32px;
+
+}
+
+.icon-heading img {
+    width: 80px;
+    height: 80px;
+    margin-right: 24px;
+}
+
+.plus-icon {
+    border: 0px solid black;
+    box-shadow: 0 0 15px rgba(131, 122, 122, 0.2);
+    color: #EF6D58;
+    display: inline-block;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    font-size: 18px;
+    padding: 19px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-right: 16px;
+}
+
+.explore-more {
+    display: flex;
+}
+
+#second-box {
+    border: 1px solid #F3D1BF;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.more-service {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.more-service p {
+    color: #391400A3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.more-service a {
+    text-decoration: none;
+    color: #391400;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 /* service secction styles ends  */
-span {
-    color: #391400;
-}
